@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpo*rt" content="width=device-width, initial-scale=1.0">
+    <title>All Collections-Nikitha Online boutique-erode</title>
+    <link rel ="stylesheet" href ="stylez.css"></link>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+    <div class="navbar">
+        
+        <nav> 
+            <ul id="MenuItems">
+                <li><a href ="htmls.html">Home</a></li>
+                <li><a href ="Collection.html">Collections</a></li>
+                <li><a href ="">Trailroom</a></li>
+                <li><a href ="discount.html">Discount</a></li>
+                <li><a href ="contact.html">Contact us</a></li>
+                <li><a href ="customize.html">Customize online</a></li>
+                <li><a href ="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="img\cart.png" width="30px" height="30px"></a>
+        <img src="img\menu.png" class="menu-icon" 
+        onclick="menutoggle()">
+    </div>
+    </div>
+<title>Customize Your Dress</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.dress-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.dress-preview {
+  flex: 1;
+}
+
+.dress-preview img {
+  max-width: 100%;
+  height: auto;
+}
+
+.dress-options {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.dress-options h2 {
+  margin-bottom: 10px;
+}
+
+.dress-options label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.dress-options select, .dress-options input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+#customize-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#customize-btn:hover {
+  background-color: #0056b3;
+}
+
+.dress-preview img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc; /* Added border for visibility */
+}
+
+</style>
+</head>
+<body>
+    
+  <div class="container">
+            <div class="container">
+                <h1>Customize Your Dress</h1>
+                <div class="dress-container">
+                  <div class="dress-preview">
+                    <img id="previewImage" src="img\red-dress.jpg" alt="Default Dress">
+                  </div>
+                
+                <div class="dress-options">
+                  <h2>Select Your Options</h2>
+                  <label for="material">Dress Material:</label>
+                  <input type="text" id="material" placeholder="Enter dress material">
+          
+                  <label for="neck-design">Neck Design:</label>
+                  <select id="neck-design">
+                    <option value="v-neck">V-Neck</option>
+                    <option value="round-neck">Round Neck</option>
+                    <option value="scoop-neck">Scoop Neck</option>
+                    <option value="boat-neck">Boat Neck</option>
+                  </select>
+          
+                  <label for="hand-design">Hand Design:</label>
+                  <input type="text" id="hand-design" placeholder="Enter hand design">
+          
+                  <label for="color">Color:</label>
+                  <select id="color">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                  </select>
+          
+                  <label for="size">Size:</label>
+                  <select id="size">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                  </select>
+          
+                  <button id="customize-btn">Customize</button>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script> <!-- Include JavaScript file -->
+</body>
+</html>
+
